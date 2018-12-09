@@ -27,10 +27,6 @@ footer {
   border: 2px solid #5C5C5C;
 }
 
-.animal-btn {
-  fill: #681315;
-}
-
 .banner-back-index {
   background-color: #515541;
 }
@@ -58,3 +54,7 @@ footer {
   color: #991A1E;
   border: 1px solid #520000;
 }
+
+ .animal-btn:hover {
+   background-color: #E2CBAB;
+ }
