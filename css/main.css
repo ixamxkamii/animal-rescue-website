@@ -31,8 +31,20 @@ footer {
   fill: #681315;
 }
 
-.banner {
-  background-color: #F2F2F2;
+.banner-back-index {
+  background-color: #515541;
+}
+
+.banner-index {
+  background-color: #E2CBAB;
+}
+
+.banner-back-rescue {
+  background-color: #E98B79;
+}
+
+.banner-rescue {
+  background-color: #FDE6E6;
 }
 
 .btn-red {
@@ -45,12 +57,4 @@ footer {
   background-color: #520000;
   color: #991A1E;
   border: 1px solid #520000;
-}
-
-.banner-back-rescue {
-  background-color: #E98B79;
-}
-
-.banner-rescue {
-  background-color: #FDE6E6;
 }
