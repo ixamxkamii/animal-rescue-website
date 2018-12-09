@@ -26,3 +26,31 @@ footer {
 .border-grey {
   border: 2px solid #5C5C5C;
 }
+
+.animal-btn {
+  fill: #681315;
+}
+
+.banner {
+  background-color: #F2F2F2;
+}
+
+.btn-red {
+  background-color: #991A1E;
+  color: white;
+  border: 1px solid #991A1E;
+}
+
+.btn-red:hover {
+  background-color: #520000;
+  color: #991A1E;
+  border: 1px solid #520000;
+}
+
+.banner-back-rescue {
+  background-color: #E98B79;
+}
+
+.banner-rescue {
+  background-color: #FDE6E6;
+}
