@@ -2,59 +2,52 @@ html {
   font-family: Raleway, sans-serif;
 }
 
-.nav {
-  background-color: #991A1E;
-}
-
 .nav a, footer a {
   color: white;
 }
 
-.nav nav {
+.nav nav, footer {
   background-color: #681315;
 }
 
-footer {
-  background-color: #681315;
-}
-
-.section-head {
-  background-color: #991A1E;
+.section-head, .nav {
+  background-color: #991a1E;
   color: white;
 }
 
 .border-grey {
-  border: 2px solid #5C5C5C;
+  border: 2px solid #5c5c5c;
 }
 
 .banner-back-index {
   background-color: #515541;
 }
 
-.banner-index {
-  background-color: #E2CBAB;
+.banner-index, .animal-btn:hover {
+  background-color: #e2cbab;
 }
 
 .banner-back-rescue {
-  background-color: #E98B79;
+  background-color: #e98b79;
 }
 
 .banner-rescue {
-  background-color: #FDE6E6;
+  background-color: #fde6e6;
 }
 
 .btn-red {
-  background-color: #991A1E;
+  background-color: #991a1e;
   color: white;
-  border: 1px solid #991A1E;
+  border: 1px solid #991a1e;
 }
 
 .btn-red:hover {
   background-color: #520000;
-  color: #991A1E;
+  color: #991a1E;
   border: 1px solid #520000;
 }
 
- .animal-btn:hover {
-   background-color: #E2CBAB;
- }
+.form-label {
+  background-color: #991a1e;
+  color: white;
+}
