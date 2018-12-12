@@ -41,27 +41,6 @@ summary {
   display: block;
 }
 
-audio,
-canvas,
-progress,
-video {
-  display: inline-block;
-  vertical-align: baseline;
-}
-
-template {
-  display: none;
-}
-
-details {
-  cursor: pointer;
-}
-
-audio:not([controls]) {
-  display: none;
-  height: 0;
-}
-
 a,
 area,
 button,
@@ -318,45 +297,6 @@ svg.img-flex {
   display: none !important;
   visibility: hidden !important;
   /* stylelint-enable */
-}
-
-.visually-hidden {
-  height: 1px;
-  margin: -1px;
-  overflow: hidden;
-  padding: 0;
-  position: absolute;
-  width: 1px;
-  border: 0;
-  clip: rect(0 0 0 0);
-  clip-path: inset(50%);
-}
-
-.visually-hidden.focusable:active, .visually-hidden.focusable:focus {
-  height: auto;
-  margin: 0;
-  overflow: visible;
-  position: static;
-  width: auto;
-  clip: auto;
-  clip-path: none;
-}
-
-.invisible {
-  visibility: hidden;
-}
-
-.chop,
-.crop {
-  overflow: hidden;
-}
-
-.truncate {
-  max-width: 100%;
-  overflow: hidden;
-  width: 100%;
-  text-overflow: ellipsis;
-  white-space: nowrap;
 }
 
 .scrollable {
